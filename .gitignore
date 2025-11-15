@@ -11,3 +11,4 @@ models/
 models/faiss.index
 models/meta.json
 models/tfidf_matrix.npz
+.env
