@@ -1,0 +1,12 @@
+# requirements.txt
+# Minimal RAG Chatbot (TF-IDF + SBERT + Gemini + Streamlit)
+
+streamlit>=1.18.0
+sentence-transformers==2.7.0
+faiss-cpu>=1.7.4
+numpy>=1.26.0
+scikit-learn>=1.3.0
+google-generativeai>=0.7.2
+python-dotenv>=1.0.1
+tqdm>=4.66.2
+pandas>=2.2.0

@@ -1,0 +1,13 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+.streamlit/
+data/
+models/
+EOF
+models/
+models/faiss.index
+models/meta.json
+models/tfidf_matrix.npz
