@@ -34,7 +34,7 @@ python -m pip install --no-cache-dir "torch==2.8.0" -f https://download.pytorch.
 pip install -r requirements.txt
 ```
 
-###Add Gemini API Key
+### Add Gemini API Key
 ```bash
 GEMINI_API_KEY=your_api_key_here
 GEMINI_MODEL=models/gemini-2.0-pro
@@ -42,16 +42,16 @@ SBERT_MODEL=all-mpnet-base-v2
 
 ```
 
-###Build the FAISS Vector Index (Required First Time)
+### Build the FAISS Vector Index (Required First Time)
 ```bash
 python build_index.py
 ```
-###Run the Streamlit Chat App
+### Run the Streamlit Chat App
 ```bash
 streamlit run app_streamlit.py
 
 ```
 
-###streamlit link
+### streamlit link
 
 https://mental-health-chatbot-bishnu.streamlit.app/
